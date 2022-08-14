@@ -1,0 +1,68 @@
+.section-merit {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.merit-class {
+  width: 1200px;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-merit {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.merit {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.merit::before {
+  display: block;
+  height: 120px;
+  content: "";
+  background-repeat: no-repeat;
+  background-color: #F5F4FA;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.icon-group::before {
+  background-image: url(../svg/Group.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../svg/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../svg/diagram.svg);
+}
+
+.icon-austronaut::before {
+  background-image: url(../svg/astronaut.svg);
+}
+
+.h-list {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+.txt-list {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}/*# sourceMappingURL=merit.css.map */
